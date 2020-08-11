@@ -1,0 +1,35 @@
+# Xavier Bresson
+
+name: deeplearn_course
+
+
+channels:
+  
+  - pytorch # DL
+  - https://conda.anaconda.org/rdkit # Molecule
+  - dglteam # DGL
+
+dependencies:
+
+  # basic
+  - python=3.6
+  - numpy
+  - mkl
+  - ipython
+  - jupyter
+  - scipy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - networkx
+  - seaborn
+
+  - pytorch=1.1 # DL
+  - rdkit # Molecule
+  - dgl=0.3 # DGL
+
+  - pip:
+    - torchvision # DL
+    - gym # RL
+    - tensorboardx # TSP
+    - fastprogress # TSP
