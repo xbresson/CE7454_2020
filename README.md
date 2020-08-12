@@ -24,7 +24,7 @@ Select the notebook 'file.ipynb' and open it with Google Colab using Control Cli
 
 * Simply [click here]
 
-[Click here]: https://mybinder.org/v2/gh/xbresson/CE7454_2019/master
+[Click here]: https://mybinder.org/v2/gh/xbresson/CE7454_2020/master
 
 
 
