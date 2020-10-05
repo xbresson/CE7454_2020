@@ -30,9 +30,9 @@ Select the notebook 'file.ipynb' and open it with Google Colab using Control Cli
 
 <br><br>
 
-### Local Installation
+### Local Installation (easy steps)
 
-* Follow these instructions (easy steps) :
+* Instructions for OSX & Linux : Open a Terminal and type
 
 
 ```sh
@@ -42,7 +42,6 @@ Select the notebook 'file.ipynb' and open it with Google Colab using Control Cli
    chmod +x ~/miniconda.sh
    ./miniconda.sh
    source ~/.bashrc
-   #install https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe # Windows
 
    # Clone GitHub repo
    git clone https://github.com/xbresson/CE7454_2020.git
@@ -55,6 +54,36 @@ Select the notebook 'file.ipynb' and open it with Google Colab using Control Cli
    # Run the notebooks
    jupyter notebook
    ```
+
+
+
+
+* Instructions for Windows : 
+
+```sh
+   # Install Anaconda 
+   https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe
+
+   # Open an Anaconda Terminal 
+   Go to Application => Anaconda3 => Anaconda Prompt 
+
+   # Install git : Type in terminal
+   conda install git 
+
+   # Clone GitHub repo
+   git clone https://github.com/xbresson/CE7454_2020.git
+   cd CE7454_2020
+
+   # Install python libraries
+   conda env create -f environment_windows.yml
+   source activate deeplearn_course
+
+   # Run the notebooks
+   jupyter notebook
+   ```
+
+
+
 
 
 
