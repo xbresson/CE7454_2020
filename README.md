@@ -30,9 +30,9 @@ Select the notebook 'file.ipynb' and open it with Google Colab using Control Cli
 
 <br><br>
 
-### Local Installation (easy steps)
+### Local Installation for OSX & Linux
 
-* Instructions for OSX & Linux : Open a Terminal and type
+* Open a Terminal and type
 
 
 ```sh
@@ -58,7 +58,7 @@ Select the notebook 'file.ipynb' and open it with Google Colab using Control Cli
 
 
 
-* Instructions for Windows : 
+### Local Installation for Windows 
 
 ```sh
    # Install Anaconda 
