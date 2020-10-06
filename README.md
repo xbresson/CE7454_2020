@@ -76,7 +76,7 @@ Select the notebook 'file.ipynb' and open it with Google Colab using Control Cli
 
    # Install python libraries
    conda env create -f environment_windows.yml
-   source activate deeplearn_course
+   conda activate deeplearn_course
 
    # Run the notebooks
    jupyter notebook
